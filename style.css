@@ -1,0 +1,101 @@
+:root {
+   --banner: #FDF0EA;
+   --pink: rgb(255,178,176);
+   --blue: #9CCACA;
+   --dark-blue: rgb(54,114,135);
+   --reddish: rgb(247,105,101);
+   --accent-color: rgb(255,194,78);
+   --text: #fff;
+}
+@font-face {
+   font-family: 'Graphik';
+   src: url('assets/font/graphik/GraphikRegular.otf') format('opentype');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Graphik Bold';
+   src: url('assets/font/graphik/GraphikBold.otf') format('opentype');
+   font-weight: 600;
+   font-style: normal;
+}
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Graphik', sans-serif;
+}
+a {
+   font-family: 'Graphik Bold', sans-serif;
+}
+.announce {
+   background-color: var(--pink);
+   color: var(--text);
+   letter-spacing: 1px;
+}
+.yellow-btn {
+   background-color: var(--accent-color);
+   border-radius: 100%;
+   color: var(--text);
+}
+.yellow-btn:hover {
+   background-color: var(--reddish);
+   color: var(--text);
+}
+.header-btn:hover {
+   color: var(--reddish);
+}
+.nav-menu {
+   background-color: var(--blue);
+}
+.nav-menu a {
+   color: var(--text);
+}
+.nav-menu a:hover {
+   color: var(--reddish);
+}
+.banner {
+   background-image: linear-gradient(to bottom, #fdf0ea, #fdeee6, #feece3, #feeadf, #fee8db);
+   padding: 5%;
+}
+.banner-img-container img {
+   border-radius: 18px;
+}
+.banner h1 {
+   color: var(--dark-blue);
+   font-family: 'Graphik Bold', sans-serif;
+   letter-spacing: 4px;
+}
+.banner .shop-btn {
+   background-color: var(--accent-color);
+   color: var(--text);
+   font-family: 'Graphik Bold', sans-serif;
+   letter-spacing: 2px;
+   padding: 1rem 3rem;
+}
+.card-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.card-container .box-card {
+   align-content: center;
+   height: 300px;
+   width: 300px;
+   color: var(--text);
+   text-transform: uppercase;
+}
+.card-container .box-card-1 {
+   background-color: var(--accent-color);
+}
+.card-container .box-card-2 {
+   background-color: var(--pink);
+}
+.card-container .box-card-3 {
+   background-color: var(--blue);
+}
+.card-container .box-card-4 {
+   background-color: var(--reddish);
+}

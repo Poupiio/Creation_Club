@@ -33,6 +33,7 @@
 }
 body {
    font-family: 'Graphik', sans-serif;
+   overflow-x: hidden;
 }
 a {
    font-family: 'Graphik Bold', sans-serif;
@@ -62,6 +63,13 @@ a {
 }
 .nav-menu a:hover {
    color: var(--reddish);
+}
+.drop-menu {
+   background-color:  var(--blue);
+   border: none;
+}
+.drop-menu li a:hover {
+   background-color:  var(--blue);
 }
 .banner {
    background-image: linear-gradient(to bottom, #fdf0ea, #fdeee6, #feece3, #feeadf, #fee8db);
@@ -178,4 +186,16 @@ a {
 .view-all:hover {
    background-color: var(--accent-color);
    color: var(--text);
+}
+footer .pink-stripe {
+   height: 30vh;
+   background-color: var(--dark-pink);
+}
+footer h2 {
+   font-family: 'Playground', sans-serif;
+   color: var(--text);
+   text-shadow: 4px 4px 2px var(--reddish);
+}
+footer .blue-stripe {
+   background-color: var(--blue);
 }

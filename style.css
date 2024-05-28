@@ -1,6 +1,7 @@
 :root {
    --banner: #FDF0EA;
    --pink: rgb(255,178,176);
+   --dark-pink: #FFA4B5;
    --blue: #9CCACA;
    --dark-blue: rgb(54,114,135);
    --reddish: rgb(247,105,101);
@@ -72,7 +73,6 @@ a {
 .banner h1 {
    color: var(--dark-blue);
    text-shadow: 4px 4px 2px var(--pink);
-   font-family: 'Graphik Bold', sans-serif;
    letter-spacing: 4px;
    font-family: "Playground", sans-serif;
 }
@@ -141,4 +141,41 @@ a {
    font-size: 16px;
    color: #555;
    margin-bottom: 30px;
+}
+.new-in h2 {
+   color: var(--dark-blue);
+   font-family: 'Graphik Bold', sans-serif;
+}
+.card {
+   border: none;
+}
+.card-img-top {
+   height: 300px;
+}
+.card-img-top-1 {
+   background-image: url('assets/img/flowers.png'); background-size: cover;
+   background-position: center;
+}
+.card-img-top-2 {
+   background-image: url('assets/img/tea.png'); background-size: cover;
+   background-position: center;
+}
+.card-img-top-3 {
+   background-image: url('assets/img/decoration.png'); background-size: cover;
+   background-position: center;
+}
+.card-img-top-4 {
+   background-image: url('assets/img/book.png'); background-size: cover;
+   background-position: center;
+}
+.view-all {
+   background-color: var(--dark-pink);
+   color: var(--text);
+   font-family: 'Graphik Bold', sans-serif;
+   width: fit-content;
+   padding: 1rem 2.3rem;
+}
+.view-all:hover {
+   background-color: var(--accent-color);
+   color: var(--text);
 }

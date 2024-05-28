@@ -188,13 +188,16 @@ a {
    color: var(--text);
 }
 footer .pink-stripe {
-   height: 30vh;
+   height: 20vh;
    background-color: var(--dark-pink);
 }
 footer h2 {
    font-family: 'Playground', sans-serif;
    color: var(--text);
    text-shadow: 4px 4px 2px var(--reddish);
+}
+footer .pink-stripe h2 {
+   font-size: 4rem;
 }
 footer .blue-stripe {
    background-color: var(--blue);

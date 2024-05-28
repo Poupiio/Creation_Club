@@ -93,9 +93,14 @@ a {
    background-color: var(--reddish);
    color: var(--text)
 }
+.card-container {
+   padding: 0;
+   margin: 0;
+}
 .cards {
    height: 300px;
    width: 300px;
+   margin: 20px;
 }
 .card-container .box-card {
    border-radius: 0;

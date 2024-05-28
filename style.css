@@ -71,14 +71,6 @@ a {
 .drop-menu li a:hover {
    background-color:  var(--blue);
 }
-.banner {
-   background-image: url("assets/img/banner.png");
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   height: 70vh;
-   padding: 5%;
-}
 .banner .shop-btn {
    background-color: var(--dark-blue);
    color: var(--text);
@@ -188,7 +180,7 @@ a {
 footer .pink-stripe {
    height: 30vh;
    background-image: url("assets/img/footer.png");
-   background-size: cover; /* Ajustement pour voir toute l'image */
+   background-size: cover;
    background-repeat: no-repeat;
    background-position: top;
 }
@@ -202,4 +194,39 @@ footer .pink-stripe h2 {
 }
 footer .blue-stripe {
    background-color: var(--blue);
+}
+@media (min-width: 576px) {
+   .container-fluid.banner img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+   }
+   .banner .shop-btn {
+      bottom: 10px;
+      padding: 10px 20px;
+   }
+}
+@media (min-width: 992px) {
+   .container-fluid.banner img {
+      height: 600px;
+      width: 100%;
+      object-fit: cover;
+   }
+}
+@media (min-width: 1200px) {
+   .container-fluid.banner img {
+     height: 800px;
+     width: 100%;
+     object-fit: cover;
+   }
+   .banner .shop-btn {
+      bottom: 30px;
+   }
+}
+@media (min-width: 1900px) {
+   .container-fluid.banner img {
+      height: 850px;
+      width: 100%;
+      object-fit: cover;
+   }
 }

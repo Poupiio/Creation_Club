@@ -43,16 +43,9 @@ a {
    color: var(--text);
    letter-spacing: 1px;
 }
-.logo-header {
-   border: solid 2px red;
-}
 .img-logo-container {
-   border: solid 2px red;
    width: fit-content;
    margin:  0 auto;
-}
-.colonne {
-   border: solid 2px green;
 }
 .btn-container {
    width: fit-content;

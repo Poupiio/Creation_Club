@@ -23,7 +23,7 @@
                <button class="btn header-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <div class="col img-container">
-               <img src="assets/img/pres.png" alt="Logo Creation Club" class="img-fluid d-block mx-auto" width="400">
+               <img src="assets/img/pres.png" alt="Logo Creation Club" class="d-block mx-auto" width="400">
             </div>
             <div class="col d-flex justify-content-end">
                <button class="btn yellow-btn mx-2"><i class="fa-brands fa-instagram"></i></button>
@@ -81,23 +81,103 @@
    </header>
 
    <main>
-      <div class="card-container my-5">
-         <div class="box-card box-card-1">
-            <h2 class="text-center">New</h2>
-         </div>
-         <div class="box-card box-card-2">
-            <h2 class="text-center">Best sellers</h2>
-         </div>
-         <div class="box-card box-card-3">
-            <h2 class="text-center">Best sellers</h2>
-         </div>
-         <div class="box-card box-card-4">
-            <h2 class="text-center">The ones we love</h2>
-         </div>
-      </div>
+      <div class="container card-container my-5 mx-auto">
 
-      <div class="container-fluid subscribe">
+         <div class="row d-flex justify-content-center align-items-center text-center gap-2">
+
+            <div class="col-sm-10 col-md-6 col-lg-3 cards">
+               <div class="card box-card box-card-1">
+                  <div class="card-body align-content-center fs-1">
+                     New
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-sm-10 col-md-6 col-lg-3 cards">
+               <div class="card box-card box-card-2">
+                  <div class="card-body align-content-center fs-1">
+                     Best sellers
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-sm-10 col-md-6 col-lg-3 cards">
+               <div class="card box-card box-card-3">
+                  <div class="card-body align-content-center fs-1">
+                     Sale
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-sm-10 col-md-6 col-lg-3 cards">
+               <div class="card box-card box-card-4">
+                  <div class="card-body align-content-center fs-1">
+                     The ones we love
+                  </div>
+               </div>
+            </div>
+
+         </div>
+        
       </div>
+      <!-- <div class="container mt-5">
+         <div class="row">
+             <div class="col-md-3 col-sm-6 col-lg-3 mb-4">
+                 <div class="category-card category-new">
+                     New
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-3 mb-4">
+                 <div class="category-card category-best-sellers">
+                     Best Sellers
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-3 mb-4">
+                 <div class="category-card category-sale">
+                     Sale
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6 col-lg-3 mb-4">
+                 <div class="category-card category-love">
+                     The Ones We Love
+                 </div>
+             </div>
+         </div>
+     </div> -->
+
+      <!-- <div class="container-fluid subscribe position-relative">
+         <div class="rainbow position-absolute">
+            <img src="assets/img/rainbow.png" alt="Logo">
+         </div>
+         <div class="sub-content">
+            <h2 class="text-center">subscribe</h2>
+            <i class="fa-solid fa-envelope"></i>
+         </div>
+         <div class="sub-form">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+         </div>
+      </div> -->
+
+      <div class="container-fluid subscribe-section py-5 text-center">
+         <img src="assets/img/rainbow.png" alt="Rainbow" class="rainbow">
+         <h2>Subscribe</h2>
+         <i class="fa-solid fa-envelope mb-5 fs-2"></i>
+         <p>Be the first to know about new collections and exclusive offers.</p>
+         <div class="container">
+             <div class="row justify-content-center">
+                 <div class="col-md-6 col-lg-4">
+                     <form>
+                         <div class="input-group">
+                             <input type="email" class="form-control" placeholder="Email">
+                             <div class="input-group-append">
+                                 <button class="btn bg-light" type="submit">→</button>
+                             </div>
+                         </div>
+                     </form>
+                 </div>
+             </div>
+         </div>
+     </div>
 
    </main>
 

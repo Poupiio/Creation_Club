@@ -19,6 +19,12 @@
    font-weight: 600;
    font-style: normal;
 }
+@font-face {
+   font-family: 'Playground';
+   src: url('assets/font/Playground/Playground.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
 * {
    padding: 0;
    margin: 0;
@@ -65,8 +71,10 @@ a {
 }
 .banner h1 {
    color: var(--dark-blue);
+   text-shadow: 4px 4px 2px var(--pink);
    font-family: 'Graphik Bold', sans-serif;
    letter-spacing: 4px;
+   font-family: "Playground", sans-serif;
 }
 .banner .shop-btn {
    background-color: var(--accent-color);
@@ -75,17 +83,22 @@ a {
    letter-spacing: 2px;
    padding: 1rem 3rem;
 }
-.card-container {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+.banner .shop-btn:hover {
+   background-color: var(--pink);
+   color: var(--dark-blue)
 }
-.card-container .box-card {
-   align-content: center;
+.cards {
    height: 300px;
    width: 300px;
+}
+.card-container .box-card {
+   border-radius: 0;
+   border: none;
+   height: 100%;
+   width: 100%;
    color: var(--text);
    text-transform: uppercase;
+   font-family: "Playground", sans-serif;
 }
 .card-container .box-card-1 {
    background-color: var(--accent-color);
@@ -98,4 +111,34 @@ a {
 }
 .card-container .box-card-4 {
    background-color: var(--reddish);
+}
+.subscribe-section {
+   margin-top: 100px;
+   background-color: var(--blue);
+   position: relative;
+}
+.subscribe-section .rainbow {
+   width: 100px;
+   position: absolute;
+   top: -30px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.subscribe-section h2 {
+   font-family: 'Playground', sans-serif;
+   font-size: 3rem;
+   color: var(--text);
+   text-shadow: 4px 4px 2px var(--dark-blue);
+   text-transform: uppercase;
+   margin: 20px 0;
+}
+.subscribe-section i {
+   color: var(--accent-color);
+   text-shadow: 4px 4px 2px var(--dark-blue);
+}
+.subscribe-section p {
+   font-family: 'Graphik Bold', sans-serif;
+   font-size: 16px;
+   color: #555;
+   margin-bottom: 30px;
 }
